@@ -150,7 +150,7 @@ VALUES (1, 1),
        (16, 5);
        
 
--- testing_system_assignment_2:
+-- SQL – Assignment 3:
 /*Question 1: Thêm ít nhất 10 record vào mỗi table*/
 
             /* INSERT DATA bang Exam */
