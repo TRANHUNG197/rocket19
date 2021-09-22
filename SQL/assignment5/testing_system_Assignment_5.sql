@@ -1,4 +1,4 @@
-use testing_system_1;
+use testing_system_1;      
 
 /*Question 1: Tạo view có chứa danh sách nhân viên thuộc phòng ban sale*/
 -- cach 1:
