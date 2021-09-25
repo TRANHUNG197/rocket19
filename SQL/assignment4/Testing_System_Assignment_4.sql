@@ -183,7 +183,8 @@ FROM
     FROM
         department
     CROSS JOIN position
-    ORDER BY DepartmentID , PositionID) AS t ON a.departmentID = t.DepartmentID
+    ORDER BY DepartmentID , PositionID) AS t ON 
+    (a.departmentID = t.DepartmentID and a.positionid = t.positionid)
 GROUP BY t.DepartmentID , t.PositionID;
 
 
