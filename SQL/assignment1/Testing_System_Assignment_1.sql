@@ -20,6 +20,7 @@ CREATE TABLE `Account`
     Email 			VARCHAR(100),
     Username		VARCHAR(50),
     FullName		VARCHAR(50),
+    gender			varchar(20),
     DepartmentID	TINYINT,
     PositionID	 	TINYINT,
     CreateDate		datetime
