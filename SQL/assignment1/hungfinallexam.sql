@@ -80,8 +80,11 @@ with CTE_mon_hoc as
 	select sub.ID, sub.`name`, count(sub.ID) as SL
     from studentsubject ss
     join `subject` sub on ss.subjectid = sub.id
+    group by sub.ID
 )
 
+select `name`, SL from CTE_mon_hoc where SL >= 2;
+ 
 
 /*3. Tạo view có tên là "StudentInfo" lấy các thông tin về học sinh bao gồm:
 Student ID,Subject ID, Student Name, Student Age, Student Gender,
